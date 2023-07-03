@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+*{
+    
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Syne', sans-serif;;
+    
+}
+
+/*******************HEADER**************************/
+
+#header{
+    display: flex;
+    justify-content: flex-end;
+    
+   
+}
+#header ul{
+    display: flex;
+    
+    
+    
+    margin-top: 0px;
+    
+}
+
+#menu-item-26 span{
+   
+    
+    color: black;
+    
+    
+    
+}
+#menu-item-28 span {
+    color: white;
+    background-color: #DC9F96;
+    border: 35px solid #DC9F96;
+    margin-left: 35px;
+
+}
+
+#wrapper{
+    background: url(./assets/images/screenshot.png) no-repeat;
+    margin-top: 35px;
+    margin-left: 30px;
+    
+    
+}
