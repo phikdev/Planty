@@ -3,26 +3,62 @@
     
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Syne', sans-serif;;
+    font-family: 'Syne', sans-serif;
+    
+    
+    
     
 }
+
 
 /*******************HEADER**************************/
 
-#header{
+
+#logo{
+    margin-left: 30px;
+    
+}
+.custom-logo{
+    padding-top: 25px;
+}
+#navmenu{
     display: flex;
     justify-content: flex-end;
-    
-   
 }
-#header ul{
+#menu-menu{
     display: flex;
-    
-    
-    
-    margin-top: 0px;
+    margin-top: -26px;
     
 }
+
+#menu-item-245 a{
+    padding-right: 30px;
+    color: black;
+}
+#menu-item-244 a{
+    color: white;
+    
+    border: solid #DC9F96 ;
+    background-color: #DC9F96;
+    padding-top: 27px;
+    padding-bottom: 33px;
+    padding-right: 70px;
+    padding-left: 70px;
+
+   
+
+}
+#menu-item-244 a:hover{
+    
+    border: solid #C02E44 ;
+    background-color: #C02E44;
+    padding-top: 27px;
+    padding-bottom: 33px;
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+
 
 #menu-item-26 span{
    
@@ -32,7 +68,7 @@
     
     
 }
-#menu-item-28 span {
+#menu-item-28 a {
     color: white;
     background-color: #DC9F96;
     border: 35px solid #DC9F96;
@@ -40,10 +76,276 @@
 
 }
 
-#wrapper{
-    background: url(./assets/images/screenshot.png) no-repeat;
-    margin-top: 35px;
-    margin-left: 30px;
+
+.entry-title{
+    visibility: hidden;
+}
+
+.wp-image-52{
+    margin-top: -100px;
+}
+
+
+/*****************MAIN********************/
+.elementor-element-072ba44{
+    background-color: 
+    #ECE2DA ;
+    
+}
+.elementor-element-2ea4140{
+    background-color: #ECE2DA ;
+    border-bottom-left-radius: 11% ;
+    border-bottom-right-radius: 11%;
+}
+.elementor-element-0581a33{
+    background-color: #ECE2DA ;
+
+}
+.elementor-element-a3734fc{
+    background-color: #ECE2DA;
+}
+.elementor-element-de1f468{
+    background-color: #ECE2DA;
+}
+.elementor-element-2b87f81{
+    background-color: #ECE2DA;
+}
+.elementor-element-a6e5a90{
+    background-color: #ECE2DA;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}   
+.header{
+    background-color: #ECE2DA;
+}
+
+/***************FOOTER*******************/
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    
+}
+#footer a{
+    color: black;
+}
+/************************PAGE 2*********************/
+.elementor-element-76a05d4{
+    background-color: #ECE2DA;
+}
+
+.elementor-element-c1d9e90{
+    background-color: #ECE2DA;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.elementor-element-0c4df52{
+    background-color: #ECE2DA;
+}
+.elementor-element-572459d{
+    background-color: #ECE2DA;
+}
+.elementor-element-3e2bd48{
+    background-color: #ECE2DA;
+}
+
+.frm_button_submit
+{
+    visibility: hidden;
+    
+}
+#form{
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+}
+#form label{
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    color: black;
+    margin-bottom: 15px;
+}
+
+#Nom ,#email ,#message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#Nom ,#email{
+    height: 71px;
+    width: 383px;
+}
+#button1{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    border-color: #E0B9B4 !important;
     
     
+}
+#button1 input{
+    background-color:#E0B9B4 ;
+    border-color: #E0B9B4;    
+    width: 198px;
+    height: 55px;
+}
+#button1 input:hover{
+    background-color:#C02E44 ;
+    border-color: #C02E44;  
+    color: white;  
+}
+/*****************************PAGE 3*********************************/
+#zero input{
+    width: 60px;
+    height: 70px;
+    border-radius: 10px 0px 0 10px;
+    border: white;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+#compteur{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#plusmoins{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    
+}
+#plusmoins input{
+    border: white;
+    height: 35px;
+    
+    
+    
+}
+
+#plusmoins  #plus{
+    border-bottom: white 1px solid;
+}
+#plus {
+    border-radius: 0 10px 0 0;
+    background: #DC9F96;
+    color: white;
+   
+    
+    
+       
+
+}
+input #plus{
+    
+    border-bottom: white solid 2px;
+    
+}
+#moins{
+    border-radius: 0 0 10px 0;
+    background: #DC9F96;
+    color: white;
+
+}
+
+#ok{
+    color: white;
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    background: #E0B9B4;
+    border-color: #E0B9B4;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    
+
+}
+
+
+
+
+
+
+#formulaire h2,#formulaire label{
+    color: white;
+    font-family: 'Syne', sans-serif;
+}
+#formulaire h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+#formulaire label{
+    font-weight: 400;
+    font-size: 20px;
+}
+#double{
+    display: flex;
+    justify-content: center;
+}
+#form1{
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+#form2{
+    padding-left: 40px;
+}
+input{
+    padding-top: 20px;
+}
+
+#button2{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    border-color: #E0B9B4 !important;
+    
+    
+}
+#button2{
+    padding-top: 20px;
+}
+#button2 input{
+    
+    background-color:#E0B9B4 ;
+    border-color: #E0B9B4;    
+    width: 198px;
+    height: 55px;
+}
+#button2 input:hover{
+    background-color:#C02E44 ;
+    border-color: #C02E44;  
+    color: white;  
+}
+
+#nom , #Prénom , #Email , #Adresse , #Code , #Ville{
+    height: 71px;
+    width: 383px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+main #post-24{
+    background-color:#3B8E46!important;
+    
+}
+
+
+
+
+
+/**********solution de soucours***************/
+.header{
+    height: 0px;
 }
