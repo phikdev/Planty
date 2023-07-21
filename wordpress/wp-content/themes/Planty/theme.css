@@ -196,6 +196,7 @@
   font-family: "Syne", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  
 }
 
 #compteur {
@@ -423,6 +424,9 @@ main #post-24 {
 }
 
 @media (max-width: 435px) {
+  #menu-item-245{
+    padding-right: 0px !important;
+  }
   #menu-item-244 a {
     color: white;
 
@@ -430,16 +434,16 @@ main #post-24 {
     background-color: #dc9f96;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 2px;
+    padding-left: 2px;
   }
   #menu-item-244 a:hover {
     border: solid #c02e44;
     background-color: #c02e44;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
