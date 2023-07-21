@@ -29,3 +29,14 @@ function themename_custom_logo_setup() {
     add_theme_support( 'custom-logo', $defaults ); 
  } 
  add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
+
+
+ function add_search_form($items, $args) {
+    if( is_user_logged_in() && $args->theme_location == 'header' ){
+    $items .= '<li class="menu-admin">'
+            . '<a href="'. get_admin_url() .'">Admin </a>'
+            . '</li>';
+    }
+  return $items;
+}
+add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);

@@ -1,351 +1,474 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
-*{
-    
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Syne', sans-serif;
-    
-    
-    
-    
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Syne", sans-serif;
 }
 
-
-/*******************HEADER**************************/
-
-
-#logo{
-    margin-left: 30px;
-    
-}
-.custom-logo{
-    padding-top: 25px;
-}
-#navmenu{
-    display: flex;
-    justify-content: flex-end;
-}
-#menu-menu{
-    display: flex;
-    margin-top: -26px;
-    
+#wrapper{
+  max-width: 1440px;
+  
+  margin: auto;
 }
 
-#menu-item-245 a{
-    padding-right: 30px;
-    color: black;
+/***************************************HEADER*******************************/
+
+#logo {
+  margin-left: 30px;
 }
-#menu-item-244 a{
-    color: white;
-    
-    border: solid #DC9F96 ;
-    background-color: #DC9F96;
-    padding-top: 27px;
-    padding-bottom: 33px;
-    padding-right: 70px;
-    padding-left: 70px;
-
-   
-
+.custom-logo {
+  padding-top: 25px;
 }
-#menu-item-244 a:hover{
-    
-    border: solid #C02E44 ;
-    background-color: #C02E44;
-    padding-top: 27px;
-    padding-bottom: 33px;
-    padding-right: 70px;
-    padding-left: 70px;
-
+#navmenu {
+  display: flex;
+  justify-content: flex-end;
+}
+#menu-menu {
+  display: flex;
+  margin-top: -26px;
 }
 
-
-#menu-item-26 span{
-   
-    
-    color: black;
-    
-    
-    
+#menu-item-245 a {
+  padding-right: 30px;
+  color: black;
 }
-#menu-item-28 a {
-    color: white;
-    background-color: #DC9F96;
-    border: 35px solid #DC9F96;
-    margin-left: 35px;
+#menu-item-244 a {
+  color: white;
 
+  border: solid #dc9f96;
+  background-color: #dc9f96;
+  padding-top: 27px;
+  padding-bottom: 33px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
-
-
-.entry-title{
-    visibility: hidden;
-}
-
-.wp-image-52{
-    margin-top: -100px;
+#menu-item-244 a:hover {
+  border: solid #c02e44;
+  background-color: #c02e44;
+  padding-top: 27px;
+  padding-bottom: 33px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
-
-/*****************MAIN********************/
-.elementor-element-072ba44{
-    background-color: 
-    #ECE2DA ;
-    
-}
-.elementor-element-2ea4140{
-    background-color: #ECE2DA ;
-    border-bottom-left-radius: 11% ;
-    border-bottom-right-radius: 11%;
-}
-.elementor-element-0581a33{
-    background-color: #ECE2DA ;
-
-}
-.elementor-element-a3734fc{
-    background-color: #ECE2DA;
-}
-.elementor-element-de1f468{
-    background-color: #ECE2DA;
-}
-.elementor-element-2b87f81{
-    background-color: #ECE2DA;
-}
-.elementor-element-a6e5a90{
-    background-color: #ECE2DA;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-}   
-.header{
-    background-color: #ECE2DA;
+#menu-item-26 span {
+  color: black;
 }
 
-/***************FOOTER*******************/
-
-
-#footer{
-    display: flex;
-    justify-content: center;
-    
-}
-#footer a{
-    color: black;
-}
-/************************PAGE 2*********************/
-.elementor-element-76a05d4{
-    background-color: #ECE2DA;
+.entry-title {
+  visibility: hidden;
 }
 
-.elementor-element-c1d9e90{
-    background-color: #ECE2DA;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+.wp-image-52 {
+  margin-top: -100px;
+}
+.navbar-nav :nth-child(1) { order: 1; }
+.navbar-nav :nth-child(2) { order: 3; }
+.navbar-nav :nth-child(3) { order: 2; }
+.menu-admin{
+  width: 70px;
 }
 
-.elementor-element-0c4df52{
-    background-color: #ECE2DA;
+/**************************************MAIN***********************************/
+.elementor-element-072ba44 {
+  background-color: #ece2da;
 }
-.elementor-element-572459d{
-    background-color: #ECE2DA;
+.elementor-element-2ea4140 {
+  background-color: #ece2da;
+  border-bottom-left-radius: 11%;
+  border-bottom-right-radius: 11%;
 }
-.elementor-element-3e2bd48{
-    background-color: #ECE2DA;
+.elementor-element-0581a33 {
+  background-color: #ece2da;
 }
-
-.frm_button_submit
-{
-    visibility: hidden;
-    
+.elementor-element-a3734fc {
+  background-color: #ece2da;
 }
-#form{
-    display: flex;
-    justify-content: center;
-    font-family: 'Syne', sans-serif;
+.elementor-element-de1f468 {
+  background-color: #ece2da;
 }
-#form label{
-    font-family: 'Syne', sans-serif;
-    font-size: 20px;
-    font-weight:400;
-    color: black;
-    margin-bottom: 15px;
+.elementor-element-2b87f81 {
+  background-color: #ece2da;
 }
-
-#Nom ,#email ,#message{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
+.elementor-element-a6e5a90 {
+  background-color: #ece2da;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
 }
-#Nom ,#email{
-    height: 71px;
-    width: 383px;
+.elementor-element-0457618 {
+  background-color: #ece2da;
 }
-#button1{
-    
-    display: flex;
-    justify-content: center;
-    font-family: 'Syne', sans-serif;
-    border-color: #E0B9B4 !important;
-    
-    
+.elementor-element-f09f40e {
+  background-color: #ece2da;
 }
-#button1 input{
-    background-color:#E0B9B4 ;
-    border-color: #E0B9B4;    
-    width: 198px;
-    height: 55px;
+.header {
+  background-color: #ece2da;
 }
-#button1 input:hover{
-    background-color:#C02E44 ;
-    border-color: #C02E44;  
-    color: white;  
-}
-/*****************************PAGE 3*********************************/
-#zero input{
-    width: 60px;
-    height: 70px;
-    border-radius: 10px 0px 0 10px;
-    border: white;
-    padding-left: 25px;
-    padding-bottom: 20px;
-}
-#compteur{
-    display: flex;
-    justify-content: center;
-    
+#ligne1,
+#ligne2 {
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
-#plusmoins{
-    display: flex;
-    flex-direction: column;
-    
-    
+/***********************************FOOTER***********************************/
 
-    
+#footer {
+  display: flex;
+  justify-content: center;
 }
-#plusmoins input{
-    border: white;
-    height: 35px;
-    
-    
-    
+#footer a {
+  color: black;
+}
+/*********************************PAGE 2************************************/
+.elementor-element-76a05d4 {
+  background-color: #ece2da;
 }
 
-#plusmoins  #plus{
-    border-bottom: white 1px solid;
+.elementor-element-c1d9e90 {
+  background-color: #ece2da;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.elementor-element-0c4df52 {
+  background-color: #ece2da;
+}
+.elementor-element-572459d {
+  background-color: #ece2da;
+}
+.elementor-element-3e2bd48 {
+  background-color: #ece2da;
+}
+
+.frm_button_submit {
+  visibility: hidden;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  font-family: "Syne", sans-serif;
+}
+#form label {
+  font-family: "Syne", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 15px;
+}
+
+#Nom,
+#email,
+#message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#Nom,
+#email {
+  height: 71px;
+  width: 383px;
+}
+
+#button1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Syne", sans-serif;
+  border-color: #e0b9b4 !important;
+}
+#button1 input {
+  background-color: #e0b9b4;
+  border-color: #e0b9b4;
+  width: 198px;
+  height: 55px;
+}
+#button1 input:hover {
+  background-color: #c02e44;
+  border-color: #c02e44;
+  color: white;
+}
+/************************************PAGE 3**********************************/
+#zero input {
+  width: 60px;
+  height: 56px !important;
+  border-radius: 10px 0px 0 10px;
+  border: white;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#compteur {
+  display: flex;
+  justify-content: center;
+}
+#compteur input{
+  height: 28px;
+}
+
+#plusmoins {
+  display: flex;
+  flex-direction: column;
+}
+#plusmoins input {
+  border: white;
+  
+}
+
+#plusmoins #plus {
+  border-bottom: white 1px solid;
+  padding-top: 10px;
+}
+#plusmoins #moins{
+  padding-top: 10px;
 }
 #plus {
-    border-radius: 0 10px 0 0;
-    background: #DC9F96;
-    color: white;
-   
-    
-    
-       
-
+  border-radius: 0 10px 0 0;
+  background: #dc9f96;
+  color: white;
 }
-input #plus{
-    
-    border-bottom: white solid 2px;
-    
-}
-#moins{
-    border-radius: 0 0 10px 0;
-    background: #DC9F96;
-    color: white;
-
-}
-
-#ok{
-    color: white;
-    width: 100px;
-    height: 70px;
-    margin-left: 10px;
-    background: #E0B9B4;
-    border-color: #E0B9B4;
-    border-radius: 7px;
-    padding-bottom: 20px;
-    
-
+#plus:hover {
+  background: #c02e44;
 }
 
 
-
-
-
-
-#formulaire h2,#formulaire label{
-    color: white;
-    font-family: 'Syne', sans-serif;
+#moins {
+  border-radius: 0 0 10px 0;
+  background: #dc9f96;
+  color: white;
+  
 }
-#formulaire h2{
-    font-weight: 700;
-    font-size: 30px;
+
+#moins:hover {
+  background: #c02e44;
 }
-#formulaire label{
-    font-weight: 400;
-    font-size: 20px;
+
+#ok {
+  color: white;
+  width: 105px;
+  height: 56px !important;
+  margin-left: 10px;
+  background: #e0b9b4;
+  border: none;
+  border-radius: 7px;
+  padding-bottom: 20px;
+  font-family: "Syne", sans-serif;
+  font-size: 15px;
 }
-#double{
+
+#ok:hover {
+  background: #c02e44;
+  
+}
+
+#formulaire h3,
+#formulaire label {
+  color: white;
+  font-family: "Syne", sans-serif;
+}
+#formulaire h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#formulaire label {
+  font-weight: 400;
+  font-size: 20px;
+}
+#double {
+  display: flex;
+  justify-content: center;
+}
+#form1 {
+  border-right: 1px solid white;
+  padding-right: 40px;
+}
+#form2 {
+  padding-left: 40px;
+}
+input {
+  padding-top: 20px;
+}
+
+#button2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Syne", sans-serif;
+  border-color: #e0b9b4 !important;
+}
+#button2 {
+  padding-top: 20px;
+}
+#button2 input {
+  background-color: #e0b9b4;
+  border-color: #e0b9b4;
+  width: 198px;
+  height: 55px;
+}
+#button2 input:hover {
+  background-color: #c02e44;
+  border-color: #c02e44;
+  color: white;
+}
+
+#nom,
+#Prénom,
+#Email,
+#Adresse,
+#Code,
+#Ville {
+  height: 71px;
+  width: 383px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main #post-24 {
+  background-color: #3b8e46 !important;
+}
+
+/********** Solution de soucours ***************/
+.header {
+  height: 0px;
+}
+
+/*********************************** Media queries **************************/
+@media (max-width: 1050px) {
+  #deco {
+    visibility: hidden;
+  }
+}
+@media (max-width: 865px) {
+  #double {
     display: flex;
-    justify-content: center;
-}
-#form1{
-    border-right: 1px solid white;
-    padding-right: 40px;
-}
-#form2{
+    flex-direction: column;
+  }
+  #form1 {
     padding-left: 40px;
+    border-right: none;
+    justify-content: center;
+  }
 }
-input{
-    padding-top: 20px;
-}
-
-#button2{
-    
+@media (max-width: 800px) {
+  #logo {
     display: flex;
     justify-content: center;
-    font-family: 'Syne', sans-serif;
-    border-color: #E0B9B4 !important;
-    
-    
+  }
+  #navmenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .elementor-widget-heading h2 {
+    font-size: 25px;
+    padding-bottom: 100px;
+  }
+
+  img.wp-image-52 {
+    width: 300px;
+    margin-bottom: 100px;
+  }
+  .elementor-element-072ba44 {
+    height: 120px;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 15px;
+  }
+  #ligne1,
+  #ligne2 {
+    padding: none;
+    min-width: 80px;
+  }
+  
 }
-#button2{
+@media (max-width: 770px) {
+  .gout {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 495px) {
+  #post-20 h2 {
+    font-size: 15px;
+  }
+  #post-20 h3 {
+    font-size: 12px;
+  }
+  #post-20 p {
+    font-size: 10px;
+    text-align: justify;
+  }
+  #deco {
+    visibility: hidden;
+  }
+  #post-24 h2 {
+    font-size: 20px;
+  }
+  #post-24 h3 {
+    font-size: 5px;
+  }
+  #post-24 p {
+    font-size: 10px;
+  }
+  #ligne1,
+  #ligne2 {
+    padding: none !important;
+  }
+  .elementor-element-76a05d4{
+    height: 200px;
+  }
+}
+
+@media (max-width: 435px) {
+  #menu-item-244 a {
+    color: white;
+
+    border: solid #dc9f96;
+    background-color: #dc9f96;
     padding-top: 20px;
-}
-#button2 input{
-    
-    background-color:#E0B9B4 ;
-    border-color: #E0B9B4;    
-    width: 198px;
-    height: 55px;
-}
-#button2 input:hover{
-    background-color:#C02E44 ;
-    border-color: #C02E44;  
-    color: white;  
-}
-
-#nom , #Prénom , #Email , #Adresse , #Code , #Ville{
-    height: 71px;
-    width: 383px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  #menu-item-244 a:hover {
+    border: solid #c02e44;
+    background-color: #c02e44;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }
 
-
-
-
-
-main #post-24{
-    background-color:#3B8E46!important;
-    
+@media (max-width: 400px) {
+  #form input {
+    width: 170px;
+  }
+  #double input {
+    width: 170px;
+  }
 }
 
+@media (max-width: 340px) {
+  .elementor-widget-heading h2 {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+}
 
-
-
-
-/**********solution de soucours***************/
-.header{
-    height: 0px;
+@media (max-width: 320px) {
+  .elementor-widget-wrap img {
+    width: 400px;
+  }
+  #post-20 p {
+    padding-top: 50px;
+  }
+  .equipe {
+    border-radius: none !important;
+  }
 }
